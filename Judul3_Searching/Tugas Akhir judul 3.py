@@ -1,7 +1,7 @@
 def sequential_search(produk, cari):
     for i in range(len(produk)):
         if produk[i].lower() == cari.lower():
-            return i + 1   # agar indeks dimulai dari 1
+            return i + 1  
     return -1
 
 
